@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,21 +18,74 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
+
 <body>
     <div class="container">
         <div>
             <h1>Basic Collapse</h1>
 
-            <button class="btn btn-primary"
-                data-target="#demo"
-                data-toggle="collapse"
-            > Click Me!</button>
+            <button class="btn btn-primary" data-target="#demo" data-toggle="collapse"> Click Me!</button>
 
             <div id="demo" class="collapse">
                 Occaecat ut officia cupidatat aliqua laboris est nisi nisi enim nisi non.
             </div>
         </div>
-    </div>
+
+        <div id="accordian">
+            <h1>Accordian</h1>
+
+            <div class="card">
+                <a class="card-link" data-toggle="collapse" data-target="#collapseOne">
+                    <div class="card-header">
+                        Group Item 1
+                    </div>
+                </a>
+                <div id="collapseOne" class="collapse" data-parent="#accordian">
+                    <div class="card-body">
+                        Est labore dolor reprehenderit proident velit qui. Laboris enim occaecat quis nostrud veniam ut. Ut labore duis est duis
+                        reprehenderit. Esse ea ipsum quis commodo ad consequat. Ullamco mollit mollit reprehenderit ex culpa
+                        sint excepteur aliqua irure culpa culpa. Reprehenderit ipsum deserunt reprehenderit incididunt. Tempor
+                        qui pariatur proident nulla exercitation nisi mollit.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <a class="card-link" data-toggle="collapse" data-target="#collapseTwo">
+                    <div class="card-header">
+                        Group Item 2
+                    </div>
+                </a>
+                <div id="collapseTwo" class="collapse" data-parent="#accordian">
+                    <div class="card-body">
+                        Est labore dolor reprehenderit proident velit qui. Laboris enim occaecat quis nostrud veniam ut. Ut labore duis est duis
+                        reprehenderit. Esse ea ipsum quis commodo ad consequat. Ullamco mollit mollit reprehenderit ex culpa
+                        sint excepteur aliqua irure culpa culpa. Reprehenderit ipsum deserunt reprehenderit incididunt. Tempor
+                        qui pariatur proident nulla exercitation nisi mollit.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <a class="card-link" data-toggle="collapse" data-target="#collapseThree">
+                    <div class="card-header">
+                        Group Item 3
+                    </div>
+                </a>
+                <div id="collapseThree" class="collapse" data-parent="#accordian">
+                    <div class="card-body">
+                        Est labore dolor reprehenderit proident velit qui. Laboris enim occaecat quis nostrud veniam ut. Ut labore duis est duis
+                        reprehenderit. Esse ea ipsum quis commodo ad consequat. Ullamco mollit mollit reprehenderit ex culpa
+                        sint excepteur aliqua irure culpa culpa. Reprehenderit ipsum deserunt reprehenderit incididunt. Tempor
+                        qui pariatur proident nulla exercitation nisi mollit.
+                    </div>
+                </div>
+            </div>
     
+
+        </div>
+    </div>
+
 </body>
+
 </html>
