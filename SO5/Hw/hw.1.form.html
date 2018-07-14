@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Form</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.css">
 
@@ -18,15 +18,34 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-    //Hw instructions
-    //create a form
-    //ask for first name
-    //ask for last name
-    //ask for address;
-    //ask for street
-    //ask for city
-    //ask for state
-    //ask for zipcode
+
+    <form action="" id="frm">
+        <h2>What's your name?</h2>
+        <input type="text" id="firstname" placeholder="First Name">
+        <input type="text" id="lastname" placeholder="Last Name">
+
+        <span class="badge badge-primary" id="name"></span>
+
+        <br><br><br>
+ 
+        <h2>Where do you live?</h2>
+        <input type="text" id="street" placeholder="Street">
+        <input type="text" id="city" placeholder="City">
+        <br>
+        <input type="text" id="state" placeholder="State">
+        <input type="number" id="zipcode" placeholder="Zipcode">
+
+        <span class="badge badge-primary" id="address"></span>
+
+        <br><br><br>
+
+        <button class="btn btn-primary" id="btn"> Submit </button>
+
+
+
+    </form>
+    
+        <script src="hw.form.js"></script>
 
 </body>
 </html>
