@@ -12,7 +12,7 @@ namespace session5form {
         resultspace.innerHTML = "Hello " + name + ", I really hope you are AROUND " + age + " years old. If not, you are a dirty, dirty liar...";
         
         if(age<18){
-            document.querySelector("#dangertext").style.display = "block";
+            // document.querySelector("#dangertext").style.display = "block";
         }
         
         return false;
